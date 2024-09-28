@@ -7,7 +7,7 @@
       "create_function_url": true,
       "description": null,
       "environment_variables": {
-        "IMAGES_BUCKET": "HelloKittyTesting"
+        "IMAGES_BUCKET": "hellotesting123harshavardhan123"
       },
       "event_source_arn": null,
       "event_source_mapping": [],
@@ -32,7 +32,7 @@
     },
     "appcd_551e1d2b-88ec-5406-87cf-c51521bbe894": {
       "block_public_access": true,
-      "bucket_name": "hellotesting123",
+      "bucket_name": "hellotesting123harshavardhan123",
       "bucket_policy": "",
       "enable_versioning": true,
       "enable_website_configuration": false,
