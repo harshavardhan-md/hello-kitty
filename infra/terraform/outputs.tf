@@ -1,12 +1,12 @@
 
-output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_name" {
-  value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name
+output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_arn" {
+  value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.arn
   sensitive = false
 }
 
 
-output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_arn" {
-  value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.arn
+output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_name" {
+  value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name
   sensitive = false
 }
 
@@ -23,26 +23,26 @@ output "aws_iam_role_hello_kitty_role_name" {
 }
 
 
-output "aws_s3_hellokittytesting_arn" {
+output "aws_s3_hellotesting123_kms_arn" {
+  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.kms_arn
+  sensitive = false
+}
+
+
+output "aws_s3_hellotesting123_arn" {
   value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.arn
   sensitive = false
 }
 
 
-output "aws_s3_hellokittytesting_bucket_name" {
+output "aws_s3_hellotesting123_bucket_name" {
   value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_name
   sensitive = false
 }
 
 
-output "aws_s3_hellokittytesting_bucket_website_endpoint" {
+output "aws_s3_hellotesting123_bucket_website_endpoint" {
   value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_website_endpoint
-  sensitive = false
-}
-
-
-output "aws_s3_hellokittytesting_kms_arn" {
-  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.kms_arn
   sensitive = false
 }
 
